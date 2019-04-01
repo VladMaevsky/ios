@@ -9,6 +9,7 @@
 @interface Char : NSObject <Character>
 @end
 @implementation Char
+
 @end
 
 @implementation MatrixHackerTests
