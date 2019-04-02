@@ -26,7 +26,10 @@
             result += [[num objectForKey:arr[i]] integerValue];
         }
     }
-
+    
+    [arr release];
+    [num release];
+    
     return [NSString stringWithFormat:@"%ld", (long)result];
 }
 
